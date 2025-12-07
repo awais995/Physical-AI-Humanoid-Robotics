@@ -25,12 +25,10 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "D:\\Web 3 Metavers and GenAI\\Wasif\\Bhaijan Hackathon\\humanoid-robotics\\sidebars.js",
-          "editUrl": "https://github.com/your-username/your-project-name/tree/main/"
+          "sidebarPath": "D:\\Web 3 Metavers and GenAI\\Wasif\\Bhaijan Hackathon\\humanoid-robotics\\sidebars.js"
         },
         "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/your-username/your-project-name/tree/main/"
+          "showReadingTime": true
         },
         "theme": {
           "customCss": "D:\\Web 3 Metavers and GenAI\\Wasif\\Bhaijan Hackathon\\humanoid-robotics\\src\\css\\custom.css"
