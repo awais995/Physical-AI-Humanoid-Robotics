@@ -1,154 +1,154 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/humanoid-robotics/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/humanoid-robotics/docs",
+          "path": "/docs",
           "mainDocId": "index",
           "docs": [
             {
               "id": "index",
-              "path": "/humanoid-robotics/docs/"
+              "path": "/docs/"
             },
             {
               "id": "intro",
-              "path": "/humanoid-robotics/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services",
-              "path": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services",
+              "path": "/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration",
-              "path": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration",
+              "path": "/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids",
-              "path": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids",
+              "path": "/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/ROS-2-Robotic-Nervous-System/citations-validation",
-              "path": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation"
+              "path": "/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation"
             },
             {
               "id": "module1/ROS-2-Robotic-Nervous-System/index",
-              "path": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/",
+              "path": "/docs/module1/ROS-2-Robotic-Nervous-System/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/ROS-2-Robotic-Nervous-System/plagiarism-check",
-              "path": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check"
+              "path": "/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check"
             },
             {
               "id": "module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity",
-              "path": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity",
+              "path": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation",
-              "path": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation",
+              "path": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation",
-              "path": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation",
+              "path": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/Digital-Twin-Gazebo-Unity/citations-validation",
-              "path": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation"
+              "path": "/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation"
             },
             {
               "id": "module2/Digital-Twin-Gazebo-Unity/index",
-              "path": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/",
+              "path": "/docs/module2/Digital-Twin-Gazebo-Unity/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/Digital-Twin-Gazebo-Unity/plagiarism-check",
-              "path": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check"
+              "path": "/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation",
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real",
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation"
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/index",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/",
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check",
-              "path": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check"
+              "path": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/chapter1-whisper-commands",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands",
+              "path": "/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/chapter2-llm-planning",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning",
+              "path": "/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/chapter3-voice-to-action",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action",
+              "path": "/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check",
+              "path": "/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/citations-validation",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/citations-validation"
+              "path": "/docs/module4/Vision-Language-Action-VLA/citations-validation"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/index",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/",
+              "path": "/docs/module4/Vision-Language-Action-VLA/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/Vision-Language-Action-VLA/plagiarism-check",
-              "path": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/plagiarism-check"
+              "path": "/docs/module4/Vision-Language-Action-VLA/plagiarism-check"
             },
             {
               "id": "references/citations",
-              "path": "/humanoid-robotics/docs/references/citations",
+              "path": "/docs/references/citations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorials/getting-started",
-              "path": "/humanoid-robotics/docs/tutorials/getting-started",
+              "path": "/docs/tutorials/getting-started",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -156,7 +156,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/humanoid-robotics/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

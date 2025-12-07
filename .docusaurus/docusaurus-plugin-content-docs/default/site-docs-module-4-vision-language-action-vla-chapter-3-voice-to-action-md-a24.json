@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action.md",
   "sourceDirName": "module4/Vision-Language-Action-VLA",
   "slug": "/module4/Vision-Language-Action-VLA/chapter3-voice-to-action",
-  "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action",
+  "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: LLM-based Cognitive Planning",
-    "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning"
+    "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning"
   },
   "next": {
     "title": "Plagiarism Check for Capstone Integration Content",
-    "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check"
+    "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check"
   }
 }

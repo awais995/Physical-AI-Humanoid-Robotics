@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal.md",
   "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
   "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
-  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
+  "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: VSLAM and Navigation",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation"
   },
   "next": {
     "title": "Chapter 4: Sim-to-Real Transfer",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real"
   }
 }

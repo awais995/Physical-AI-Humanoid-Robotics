@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim.md",
   "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
   "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
-  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
+  "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 3: NVIDIA Isaac (AI-Robot Brain)",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/"
   },
   "next": {
     "title": "Chapter 2: VSLAM and Navigation",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation"
   }
 }

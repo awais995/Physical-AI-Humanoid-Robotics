@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/Vision-Language-Action-VLA/index.md",
   "sourceDirName": "module4/Vision-Language-Action-VLA",
   "slug": "/module4/Vision-Language-Action-VLA/",
-  "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/",
+  "permalink": "/docs/module4/Vision-Language-Action-VLA/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module4/Vision-Language-Action-VLA/index.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 4: Sim-to-Real Transfer",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real"
   },
   "next": {
     "title": "Chapter 1: Whisper Voice Commands",
-    "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands"
+    "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands"
   }
 }

@@ -1,138 +1,138 @@
 {
-  "/humanoid-robotics/docs-e76": {
+  "/docs-d1c": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/humanoid-robotics/docs-040": {
+  "/docs-066": {
     "__comp": "a7bd4aaa",
-    "__props": "58055553"
+    "__props": "0058b4c6"
   },
-  "/humanoid-robotics/docs-591": {
+  "/docs-394": {
     "__comp": "a94703ab"
   },
-  "/humanoid-robotics/docs/-5a9": {
+  "/docs/-0ee": {
     "__comp": "17896441",
     "content": "c377a04b"
   },
-  "/humanoid-robotics/docs/intro-38e": {
+  "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/-a32": {
+  "/docs/module1/ROS-2-Robotic-Nervous-System/-92c": {
     "__comp": "17896441",
     "content": "fe28d671"
   },
-  "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services-599": {
+  "/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services-aa2": {
     "__comp": "17896441",
     "content": "e3cd849c"
   },
-  "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration-c16": {
+  "/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration-1d3": {
     "__comp": "17896441",
     "content": "3515f2a8"
   },
-  "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids-a3e": {
+  "/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids-a0a": {
     "__comp": "17896441",
     "content": "0f6b9459"
   },
-  "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation-64a": {
+  "/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation-eac": {
     "__comp": "17896441",
     "content": "25dc3969"
   },
-  "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check-3dd": {
+  "/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check-ecb": {
     "__comp": "17896441",
     "content": "d398c345"
   },
-  "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/-a4e": {
+  "/docs/module2/Digital-Twin-Gazebo-Unity/-98e": {
     "__comp": "17896441",
     "content": "f7103bd1"
   },
-  "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity-a96": {
+  "/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity-cd7": {
     "__comp": "17896441",
     "content": "35ade49e"
   },
-  "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation-729": {
+  "/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation-90d": {
     "__comp": "17896441",
     "content": "5dadcb96"
   },
-  "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation-a45": {
+  "/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation-c81": {
     "__comp": "17896441",
     "content": "0b135fca"
   },
-  "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation-a68": {
+  "/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation-7c5": {
     "__comp": "17896441",
     "content": "ace252e0"
   },
-  "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check-bbe": {
+  "/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check-67d": {
     "__comp": "17896441",
     "content": "f68c1d34"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/-33b": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/-f14": {
     "__comp": "17896441",
     "content": "6c99e593"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim-65a": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim-bb1": {
     "__comp": "17896441",
     "content": "b7672f47"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation-642": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation-240": {
     "__comp": "17896441",
     "content": "b4696d09"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal-a89": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal-0f6": {
     "__comp": "17896441",
     "content": "ce3a3c9c"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real-d7d": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real-0af": {
     "__comp": "17896441",
     "content": "46c507c2"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation-121": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation-aa9": {
     "__comp": "17896441",
     "content": "fe86fde8"
   },
-  "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check-e92": {
+  "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check-8fc": {
     "__comp": "17896441",
     "content": "f8f02b9a"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/-ef0": {
+  "/docs/module4/Vision-Language-Action-VLA/-030": {
     "__comp": "17896441",
     "content": "04557229"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands-b24": {
+  "/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands-66a": {
     "__comp": "17896441",
     "content": "4b256fd2"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning-cf3": {
+  "/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning-a2a": {
     "__comp": "17896441",
     "content": "bbd79443"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action-c44": {
+  "/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action-136": {
     "__comp": "17896441",
     "content": "a247450c"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check-0bf": {
+  "/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check-78d": {
     "__comp": "17896441",
     "content": "ffb25919"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/citations-validation-29e": {
+  "/docs/module4/Vision-Language-Action-VLA/citations-validation-e39": {
     "__comp": "17896441",
     "content": "74b37e3b"
   },
-  "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/plagiarism-check-6d7": {
+  "/docs/module4/Vision-Language-Action-VLA/plagiarism-check-368": {
     "__comp": "17896441",
     "content": "9a9e96f5"
   },
-  "/humanoid-robotics/docs/references/citations-425": {
+  "/docs/references/citations-e93": {
     "__comp": "17896441",
     "content": "7965ecdb"
   },
-  "/humanoid-robotics/docs/tutorials/getting-started-af2": {
+  "/docs/tutorials/getting-started-079": {
     "__comp": "17896441",
     "content": "8e36650c"
   },
-  "/humanoid-robotics/-ea3": {
+  "/-2e1": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "a7456010"

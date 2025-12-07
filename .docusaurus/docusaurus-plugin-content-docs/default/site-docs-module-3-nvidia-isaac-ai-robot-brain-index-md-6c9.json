@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/index.md",
   "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
   "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/",
-  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/",
+  "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/index.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3: Sensor Simulation",
-    "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation"
+    "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation"
   },
   "next": {
     "title": "Chapter 1: Isaac Sim and Synthetic Data",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim"
   }
 }

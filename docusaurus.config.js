@@ -79,11 +79,6 @@ const config = {
             position: 'left',
             label: 'Book',
           },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -95,15 +90,6 @@ const config = {
               {
                 label: 'Introduction',
                 to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Resources',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },

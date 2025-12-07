@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation.md",
   "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
   "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation",
-  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation",
+  "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Isaac Sim and Synthetic Data",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim"
   },
   "next": {
     "title": "Chapter 3: Nav2 for Bipedal Path Planning",
-    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal"
+    "permalink": "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal"
   }
 }

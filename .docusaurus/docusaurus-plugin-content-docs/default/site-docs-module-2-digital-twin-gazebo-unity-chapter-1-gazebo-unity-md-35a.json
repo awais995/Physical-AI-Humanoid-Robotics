@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity.md",
   "sourceDirName": "module2/Digital-Twin-Gazebo-Unity",
   "slug": "/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity",
-  "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity",
+  "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2: Digital Twin (Gazebo + Unity)",
-    "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/"
+    "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/"
   },
   "next": {
     "title": "Chapter 2: Physics Simulation and Collisions",
-    "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation"
+    "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation"
   }
 }

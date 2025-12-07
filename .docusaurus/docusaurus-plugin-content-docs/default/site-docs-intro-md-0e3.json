@@ -5,7 +5,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/humanoid-robotics/docs/intro",
+  "permalink": "/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/intro.md",
@@ -18,6 +18,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Module 1: ROS 2 (Robotic Nervous System)",
-    "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/"
+    "permalink": "/docs/module1/ROS-2-Robotic-Nervous-System/"
   }
 }

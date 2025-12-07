@@ -4,18 +4,26 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Digital Twin Technologies',
+    title: 'ROS 2 - Robotic Nervous System',
     description: (
       <>
-        Learn to create accurate virtual representations of physical robots using Gazebo and Unity for simulation and testing.
+        Learn to build the nervous system of robots with ROS 2, including nodes, topics, services, and URDF for humanoid robot modeling.
       </>
     ),
   },
   {
-    title: 'NVIDIA Isaac AI Integration',
+    title: 'Digital Twin Technologies',
     description: (
       <>
-        Understand how to use NVIDIA Isaac for AI-powered robotics, including Isaac Sim for synthetic data generation.
+        Create accurate virtual representations of physical robots using Gazebo and Unity for simulation and testing.
+      </>
+    ),
+  },
+  {
+    title: 'NVIDIA Isaac - AI Robot Brain',
+    description: (
+      <>
+        Understand how to use NVIDIA Isaac for AI-powered robotics, including Isaac Sim for synthetic data generation and Nav2 for navigation.
       </>
     ),
   },
@@ -31,7 +39,7 @@ const FeatureList = [
 
 function Feature({title, description}) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx('col col--3')}>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

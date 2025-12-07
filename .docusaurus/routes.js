@@ -3,185 +3,185 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/humanoid-robotics/docs',
-    component: ComponentCreator('/humanoid-robotics/docs', 'e76'),
+    path: '/docs',
+    component: ComponentCreator('/docs', 'd1c'),
     routes: [
       {
-        path: '/humanoid-robotics/docs',
-        component: ComponentCreator('/humanoid-robotics/docs', '040'),
+        path: '/docs',
+        component: ComponentCreator('/docs', '066'),
         routes: [
           {
-            path: '/humanoid-robotics/docs',
-            component: ComponentCreator('/humanoid-robotics/docs', '591'),
+            path: '/docs',
+            component: ComponentCreator('/docs', '394'),
             routes: [
               {
-                path: '/humanoid-robotics/docs/',
-                component: ComponentCreator('/humanoid-robotics/docs/', '5a9'),
+                path: '/docs/',
+                component: ComponentCreator('/docs/', '0ee'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/intro',
-                component: ComponentCreator('/humanoid-robotics/docs/intro', '38e'),
+                path: '/docs/intro',
+                component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/',
-                component: ComponentCreator('/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/', 'a32'),
+                path: '/docs/module1/ROS-2-Robotic-Nervous-System/',
+                component: ComponentCreator('/docs/module1/ROS-2-Robotic-Nervous-System/', '92c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services',
-                component: ComponentCreator('/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services', '599'),
+                path: '/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services',
+                component: ComponentCreator('/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services', 'aa2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration',
-                component: ComponentCreator('/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration', 'c16'),
+                path: '/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration',
+                component: ComponentCreator('/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration', '1d3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids',
-                component: ComponentCreator('/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids', 'a3e'),
+                path: '/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids',
+                component: ComponentCreator('/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids', 'a0a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation',
-                component: ComponentCreator('/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation', '64a'),
+                path: '/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation',
+                component: ComponentCreator('/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation', 'eac'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check',
-                component: ComponentCreator('/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check', '3dd'),
+                path: '/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check',
+                component: ComponentCreator('/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check', 'ecb'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/',
-                component: ComponentCreator('/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/', 'a4e'),
+                path: '/docs/module2/Digital-Twin-Gazebo-Unity/',
+                component: ComponentCreator('/docs/module2/Digital-Twin-Gazebo-Unity/', '98e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity',
-                component: ComponentCreator('/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity', 'a96'),
+                path: '/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity',
+                component: ComponentCreator('/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity', 'cd7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation',
-                component: ComponentCreator('/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation', '729'),
+                path: '/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation',
+                component: ComponentCreator('/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation', '90d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation',
-                component: ComponentCreator('/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation', 'a45'),
+                path: '/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation',
+                component: ComponentCreator('/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation', 'c81'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation',
-                component: ComponentCreator('/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation', 'a68'),
+                path: '/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation',
+                component: ComponentCreator('/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation', '7c5'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check',
-                component: ComponentCreator('/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check', 'bbe'),
+                path: '/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check',
+                component: ComponentCreator('/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check', '67d'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/', '33b'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/', 'f14'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim', '65a'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim', 'bb1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation', '642'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation', '240'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal', 'a89'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal', '0f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real', 'd7d'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real', '0af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation', '121'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation', 'aa9'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check',
-                component: ComponentCreator('/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check', 'e92'),
+                path: '/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check',
+                component: ComponentCreator('/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check', '8fc'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/', 'ef0'),
+                path: '/docs/module4/Vision-Language-Action-VLA/',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/', '030'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands', 'b24'),
+                path: '/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands', '66a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning', 'cf3'),
+                path: '/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning', 'a2a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action', 'c44'),
+                path: '/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action', '136'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check', '0bf'),
+                path: '/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check', '78d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/citations-validation',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/citations-validation', '29e'),
+                path: '/docs/module4/Vision-Language-Action-VLA/citations-validation',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/citations-validation', 'e39'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/plagiarism-check',
-                component: ComponentCreator('/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/plagiarism-check', '6d7'),
+                path: '/docs/module4/Vision-Language-Action-VLA/plagiarism-check',
+                component: ComponentCreator('/docs/module4/Vision-Language-Action-VLA/plagiarism-check', '368'),
                 exact: true
               },
               {
-                path: '/humanoid-robotics/docs/references/citations',
-                component: ComponentCreator('/humanoid-robotics/docs/references/citations', '425'),
+                path: '/docs/references/citations',
+                component: ComponentCreator('/docs/references/citations', 'e93'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/humanoid-robotics/docs/tutorials/getting-started',
-                component: ComponentCreator('/humanoid-robotics/docs/tutorials/getting-started', 'af2'),
+                path: '/docs/tutorials/getting-started',
+                component: ComponentCreator('/docs/tutorials/getting-started', '079'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -192,8 +192,8 @@ export default [
     ]
   },
   {
-    path: '/humanoid-robotics/',
-    component: ComponentCreator('/humanoid-robotics/', 'ea3'),
+    path: '/',
+    component: ComponentCreator('/', '2e1'),
     exact: true
   },
   {

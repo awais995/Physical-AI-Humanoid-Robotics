@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning.md",
   "sourceDirName": "module4/Vision-Language-Action-VLA",
   "slug": "/module4/Vision-Language-Action-VLA/chapter2-llm-planning",
-  "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning",
+  "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Whisper Voice Commands",
-    "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands"
+    "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands"
   },
   "next": {
     "title": "Chapter 3: Voice-to-Action Pipelines",
-    "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action"
+    "permalink": "/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action"
   }
 }

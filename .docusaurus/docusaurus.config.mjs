@@ -8,7 +8,7 @@ export default {
   "tagline": "A comprehensive guide to modern robotics and AI integration",
   "favicon": "img/favicon.ico",
   "url": "https://your-username.github.io",
-  "baseUrl": "/humanoid-robotics/",
+  "baseUrl": "/",
   "organizationName": "your-organization",
   "projectName": "humanoid-robotics",
   "onBrokenLinks": "warn",
@@ -52,11 +52,6 @@ export default {
           "sidebarId": "tutorialSidebar",
           "position": "left",
           "label": "Book"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -70,15 +65,6 @@ export default {
             {
               "label": "Introduction",
               "to": "/docs/intro"
-            }
-          ]
-        },
-        {
-          "title": "Resources",
-          "items": [
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
             }
           ]
         }

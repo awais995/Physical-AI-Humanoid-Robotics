@@ -1,5 +1,5 @@
 {
-  "blogBasePath": "/humanoid-robotics/blog",
+  "blogBasePath": "/blog",
   "blogTitle": "Blog",
-  "authorsListPath": "/humanoid-robotics/blog/authors"
+  "authorsListPath": "/blog/authors"
 }

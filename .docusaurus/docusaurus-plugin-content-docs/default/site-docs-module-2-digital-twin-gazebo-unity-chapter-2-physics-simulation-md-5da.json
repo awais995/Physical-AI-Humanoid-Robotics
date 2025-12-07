@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation.md",
   "sourceDirName": "module2/Digital-Twin-Gazebo-Unity",
   "slug": "/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation",
-  "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation",
+  "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation.md",
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Gazebo and Unity Integration",
-    "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity"
+    "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity"
   },
   "next": {
     "title": "Chapter 3: Sensor Simulation",
-    "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation"
+    "permalink": "/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation"
   }
 }
