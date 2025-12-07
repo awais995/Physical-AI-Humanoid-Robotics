@@ -1,0 +1,15 @@
+{
+  "id": "module4/Vision-Language-Action-VLA/citations-validation",
+  "title": "Citation Validation for Vision-Language-Action (VLA) Module",
+  "description": "This document validates that all citations in the Vision-Language-Action module meet constitutional requirements for academic rigor and credibility.",
+  "source": "@site/docs/module4/Vision-Language-Action-VLA/citations-validation.md",
+  "sourceDirName": "module4/Vision-Language-Action-VLA",
+  "slug": "/module4/Vision-Language-Action-VLA/citations-validation",
+  "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/citations-validation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module4/Vision-Language-Action-VLA/citations-validation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

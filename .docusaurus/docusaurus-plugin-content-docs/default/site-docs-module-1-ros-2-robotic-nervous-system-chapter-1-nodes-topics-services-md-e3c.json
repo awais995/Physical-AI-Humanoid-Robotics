@@ -1,0 +1,27 @@
+{
+  "id": "module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services",
+  "title": "Chapter 1: Nodes, Topics, and Services",
+  "description": "This chapter covers the fundamental communication patterns in ROS 2: nodes, topics, and services that form the backbone of robotic systems.",
+  "source": "@site/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services.md",
+  "sourceDirName": "module1/ROS-2-Robotic-Nervous-System",
+  "slug": "/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services",
+  "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1: ROS 2 (Robotic Nervous System)",
+    "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/"
+  },
+  "next": {
+    "title": "Chapter 2: rclpy Integration",
+    "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration"
+  }
+}

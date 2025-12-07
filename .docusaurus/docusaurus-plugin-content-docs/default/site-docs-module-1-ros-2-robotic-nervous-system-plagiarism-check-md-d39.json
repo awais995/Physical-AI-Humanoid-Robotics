@@ -1,0 +1,18 @@
+{
+  "id": "module1/ROS-2-Robotic-Nervous-System/plagiarism-check",
+  "title": "ROS 2 Plagiarism Check",
+  "description": "This document ensures 0% plagiarism for the ROS 2 module content as required by constitutional standards.",
+  "source": "@site/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check.md",
+  "sourceDirName": "module1/ROS-2-Robotic-Nervous-System",
+  "slug": "/module1/ROS-2-Robotic-Nervous-System/plagiarism-check",
+  "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

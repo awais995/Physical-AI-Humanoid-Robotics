@@ -1,0 +1,336 @@
+# Book API Contract
+# Defines the interfaces for the Physical AI & Humanoid Robotics book system
+
+openapi: 3.0.0
+info:
+  title: Physical AI & Humanoid Robotics Book API
+  description: API for managing and accessing the Physical AI & Humanoid Robotics book content
+  version: 1.0.0
+
+paths:
+  /book:
+    get:
+      summary: Get book metadata
+      description: Retrieve metadata about the Physical AI & Humanoid Robotics book
+      responses:
+        '200':
+          description: Book metadata
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Book'
+
+  /book/modules:
+    get:
+      summary: Get all modules
+      description: Retrieve all modules in the book
+      responses:
+        '200':
+          description: List of modules
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Module'
+
+  /book/modules/{moduleId}:
+    get:
+      summary: Get module by ID
+      description: Retrieve a specific module by its ID
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module to retrieve
+      responses:
+        '200':
+          description: Module details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Module'
+        '404':
+          description: Module not found
+
+  /book/modules/{moduleId}/chapters:
+    get:
+      summary: Get chapters in a module
+      description: Retrieve all chapters within a specific module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module
+      responses:
+        '200':
+          description: List of chapters in the module
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Chapter'
+
+  /book/modules/{moduleId}/chapters/{chapterId}:
+    get:
+      summary: Get chapter by ID
+      description: Retrieve a specific chapter by its ID within a module
+      parameters:
+        - name: moduleId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the module
+        - name: chapterId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: ID of the chapter to retrieve
+      responses:
+        '200':
+          description: Chapter details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chapter'
+        '404':
+          description: Chapter not found
+
+  /book/search:
+    get:
+      summary: Search book content
+      description: Search across the entire book content
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Search query
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 10
+          description: Maximum number of results to return
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  results:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/SearchResult'
+                  total:
+                    type: integer
+
+  /book/citations:
+    get:
+      summary: Get all citations
+      description: Retrieve all citations used in the book
+      responses:
+        '200':
+          description: List of citations
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Citation'
+
+components:
+  schemas:
+    Book:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the book
+        title:
+          type: string
+          description: Title of the book
+        description:
+          type: string
+          description: Brief description of the book
+        wordCount:
+          type: integer
+          description: Total word count of the book
+        targetAudience:
+          type: string
+          description: Target audience for the book
+        readabilityLevel:
+          type: string
+          description: Readability level (e.g., "Grade 10-12")
+        citationStyle:
+          type: string
+          description: Citation style used (e.g., "APA")
+        modules:
+          type: array
+          items:
+            $ref: '#/components/schemas/Module'
+        status:
+          type: string
+          description: Current status of the book
+
+    Module:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the module
+        title:
+          type: string
+          description: Title of the module
+        description:
+          type: string
+          description: Brief description of the module
+        learningObjectives:
+          type: array
+          items:
+            type: string
+          description: Learning objectives for the module
+        researchTasks:
+          type: array
+          items:
+            type: string
+          description: Research tasks for the module
+        evidenceRequirements:
+          type: array
+          items:
+            type: string
+          description: Evidence requirements for the module
+        chapters:
+          type: array
+          items:
+            $ref: '#/components/schemas/Chapter'
+
+    Chapter:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the chapter
+        title:
+          type: string
+          description: Title of the chapter
+        description:
+          type: string
+          description: Brief description of the chapter
+        content:
+          type: string
+          description: Main content of the chapter (Markdown format)
+        subchapters:
+          type: array
+          items:
+            $ref: '#/components/schemas/Subchapter'
+        learningObjectives:
+          type: array
+          items:
+            type: string
+          description: Learning objectives for the chapter
+
+    Subchapter:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the subchapter
+        title:
+          type: string
+          description: Title of the subchapter
+        description:
+          type: string
+          description: Brief description of the subchapter
+        content:
+          type: string
+          description: Main content of the subchapter (Markdown format)
+        examples:
+          type: array
+          items:
+            $ref: '#/components/schemas/Example'
+
+    Example:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the example
+        title:
+          type: string
+          description: Title of the example
+        description:
+          type: string
+          description: Brief description of the example
+        code:
+          type: string
+          description: Code snippet for the example
+        explanation:
+          type: string
+          description: Explanation of the example
+
+    Citation:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Unique identifier for the citation
+        author:
+          type: string
+          description: Author name(s)
+        title:
+          type: string
+          description: Title of the referenced work
+        journal:
+          type: string
+          description: Journal or publication name
+        year:
+          type: integer
+          description: Publication year
+        doi:
+          type: string
+          description: Digital Object Identifier
+        url:
+          type: string
+          description: URL to the source
+        apaFormat:
+          type: string
+          description: Full citation in APA format
+        type:
+          type: string
+          description: Type of source (journal, book, conference, online)
+
+    SearchResult:
+      type: object
+      properties:
+        id:
+          type: string
+          description: ID of the content item
+        title:
+          type: string
+          description: Title of the content item
+        content:
+          type: string
+          description: Snippet of matching content
+        type:
+          type: string
+          description: Type of content (module, chapter, subchapter)
+        moduleId:
+          type: string
+          description: ID of the parent module
+        chapterId:
+          type: string
+          description: ID of the parent chapter (if applicable)
+        score:
+          type: number
+          description: Relevance score of the result

@@ -1,0 +1,27 @@
+{
+  "id": "module2/Digital-Twin-Gazebo-Unity/index",
+  "title": "Module 2: Digital Twin (Gazebo + Unity)",
+  "description": "This module covers creating and working with digital twin environments using Gazebo and Unity, including physics simulation, sensor modeling, and high-fidelity rendering for humanoid robotics applications.",
+  "source": "@site/docs/module2/Digital-Twin-Gazebo-Unity/index.md",
+  "sourceDirName": "module2/Digital-Twin-Gazebo-Unity",
+  "slug": "/module2/Digital-Twin-Gazebo-Unity/",
+  "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module2/Digital-Twin-Gazebo-Unity/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: URDF for Humanoids",
+    "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids"
+  },
+  "next": {
+    "title": "Chapter 1: Gazebo and Unity Integration",
+    "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity"
+  }
+}

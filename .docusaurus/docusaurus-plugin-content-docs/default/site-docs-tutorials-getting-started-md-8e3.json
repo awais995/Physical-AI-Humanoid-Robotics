@@ -1,0 +1,23 @@
+{
+  "id": "tutorials/getting-started",
+  "title": "Getting Started Tutorial",
+  "description": "This tutorial provides a step-by-step introduction to the Physical AI & Humanoid Robotics book and helps you set up your development environment.",
+  "source": "@site/docs/tutorials/getting-started.md",
+  "sourceDirName": "tutorials",
+  "slug": "/tutorials/getting-started",
+  "permalink": "/humanoid-robotics/docs/tutorials/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/tutorials/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "References and Citations",
+    "permalink": "/humanoid-robotics/docs/references/citations"
+  }
+}

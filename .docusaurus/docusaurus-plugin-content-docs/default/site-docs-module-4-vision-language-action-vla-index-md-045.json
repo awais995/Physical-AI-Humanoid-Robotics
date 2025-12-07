@@ -1,0 +1,27 @@
+{
+  "id": "module4/Vision-Language-Action-VLA/index",
+  "title": "Module 4: Vision-Language-Action (VLA) + Capstone",
+  "description": "This module covers implementing voice-activated robotics systems using Whisper for voice commands, LLMs for cognitive planning, and voice-to-action pipelines, plus the capstone integration project.",
+  "source": "@site/docs/module4/Vision-Language-Action-VLA/index.md",
+  "sourceDirName": "module4/Vision-Language-Action-VLA",
+  "slug": "/module4/Vision-Language-Action-VLA/",
+  "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module4/Vision-Language-Action-VLA/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: Sim-to-Real Transfer",
+    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real"
+  },
+  "next": {
+    "title": "Chapter 1: Whisper Voice Commands",
+    "permalink": "/humanoid-robotics/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands"
+  }
+}

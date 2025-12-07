@@ -1,0 +1,27 @@
+{
+  "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
+  "title": "Chapter 1: Isaac Sim and Synthetic Data",
+  "description": "This chapter covers NVIDIA Isaac Sim for generating synthetic data to train perception models for humanoid robots.",
+  "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim.md",
+  "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
+  "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
+  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 3: NVIDIA Isaac (AI-Robot Brain)",
+    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/"
+  },
+  "next": {
+    "title": "Chapter 2: VSLAM and Navigation",
+    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation"
+  }
+}

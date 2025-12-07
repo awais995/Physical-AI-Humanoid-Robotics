@@ -1,0 +1,23 @@
+{
+  "id": "intro",
+  "title": "Physical AI & Humanoid Robotics: A Comprehensive Guide",
+  "description": "Welcome to the Future of Robotics",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/humanoid-robotics/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Module 1: ROS 2 (Robotic Nervous System)",
+    "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/"
+  }
+}

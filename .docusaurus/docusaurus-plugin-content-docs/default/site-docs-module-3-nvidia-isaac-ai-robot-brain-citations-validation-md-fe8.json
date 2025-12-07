@@ -1,0 +1,18 @@
+{
+  "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation",
+  "title": "NVIDIA Isaac Citation Validation",
+  "description": "This document validates citations for the NVIDIA Isaac module content to ensure compliance with constitutional standards for academic rigor.",
+  "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation.md",
+  "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
+  "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation",
+  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  }
+}

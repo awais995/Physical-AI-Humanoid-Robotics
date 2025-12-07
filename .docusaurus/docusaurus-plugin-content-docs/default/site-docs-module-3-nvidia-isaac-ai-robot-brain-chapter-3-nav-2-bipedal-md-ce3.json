@@ -1,0 +1,27 @@
+{
+  "id": "module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
+  "title": "Chapter 3: Nav2 for Bipedal Path Planning",
+  "description": "This chapter covers configuring and using the Navigation2 stack specifically for bipedal humanoid robot path planning and navigation.",
+  "source": "@site/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal.md",
+  "sourceDirName": "module3/NVIDIA-Isaac-AI-Robot-Brain",
+  "slug": "/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
+  "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: VSLAM and Navigation",
+    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation"
+  },
+  "next": {
+    "title": "Chapter 4: Sim-to-Real Transfer",
+    "permalink": "/humanoid-robotics/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real"
+  }
+}

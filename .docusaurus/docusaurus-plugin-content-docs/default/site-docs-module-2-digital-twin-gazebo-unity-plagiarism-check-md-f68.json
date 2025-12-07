@@ -1,0 +1,18 @@
+{
+  "id": "module2/Digital-Twin-Gazebo-Unity/plagiarism-check",
+  "title": "Digital Twin Plagiarism Check",
+  "description": "This document ensures 0% plagiarism for the Digital Twin module content as required by constitutional standards.",
+  "source": "@site/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check.md",
+  "sourceDirName": "module2/Digital-Twin-Gazebo-Unity",
+  "slug": "/module2/Digital-Twin-Gazebo-Unity/plagiarism-check",
+  "permalink": "/humanoid-robotics/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  }
+}

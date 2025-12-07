@@ -1,0 +1,27 @@
+{
+  "id": "module1/ROS-2-Robotic-Nervous-System/index",
+  "title": "Module 1: ROS 2 (Robotic Nervous System)",
+  "description": "This module covers the fundamentals of ROS 2 as the nervous system of robots, including nodes, topics, services, actions, and how to integrate rclpy agents with humanoid URDF models.",
+  "source": "@site/docs/module1/ROS-2-Robotic-Nervous-System/index.md",
+  "sourceDirName": "module1/ROS-2-Robotic-Nervous-System",
+  "slug": "/module1/ROS-2-Robotic-Nervous-System/",
+  "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/your-username/your-project-name/tree/main/docs/module1/ROS-2-Robotic-Nervous-System/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Physical AI & Humanoid Robotics: A Comprehensive Guide",
+    "permalink": "/humanoid-robotics/docs/intro"
+  },
+  "next": {
+    "title": "Chapter 1: Nodes, Topics, and Services",
+    "permalink": "/humanoid-robotics/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services"
+  }
+}
