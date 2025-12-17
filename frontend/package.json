@@ -1,0 +1,31 @@
+{
+  "name": "rag-chatbot-frontend",
+  "version": "1.0.0",
+  "description": "Frontend components for the RAG Chatbot integrated with Docusaurus",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.6.0",
+    "@docusaurus/core": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.23.0",
+    "babel-loader": "^9.1.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "jest": "^29.7.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.1.0"
+  },
+  "keywords": ["rag", "chatbot", "docusaurus", "documentation"],
+  "author": "Humanoid Robotics Project",
+  "license": "MIT"
+}

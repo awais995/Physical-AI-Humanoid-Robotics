@@ -14,7 +14,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-username.github.io',
+  url: 'https://physical-ai-humanoid-robotics-nine-red.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Vercel deployment, use '/'
   baseUrl: '/',
@@ -93,6 +93,18 @@ const config = {
         darkTheme: require('prism-react-renderer').themes.dracula,
       },
     }),
+
+  themes: [
+    // ... other themes
+  ],
+
+  scripts: [
+    {
+      src: '/js/chatbot-config.js',
+      async: true,
+    },
+  ],
+
 };
 
 module.exports = config;

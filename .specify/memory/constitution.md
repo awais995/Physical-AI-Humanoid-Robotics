@@ -1,11 +1,12 @@
 <!-- Sync Impact Report:
-Version change: N/A → 1.0.0
-Added sections: All principles and sections as specified
+Version change: 1.0.0 → 1.1.0
+Modified principles: Added Phase-2 RAG Chatbot constitution as extension
+Added sections: Phase-2 Constitution — Integrated RAG Chatbot (Feature-Scoped)
 Removed sections: None
 Templates requiring updates: ⚠ pending - .specify/templates/plan-template.md, .specify/templates/spec-template.md, .specify/templates/tasks-template.md
 Follow-up TODOs: None
 -->
-# AI/Spec-Driven Book Creation Constitution
+# Phase 1 AI/Spec-Driven Book Creation Constitution
 
 ## Core Principles
 
@@ -45,4 +46,69 @@ System rules: All content generated under specs, tasks, and implementations must
 All content must follow the specified standards; Every claim must be cited; Zero plagiarism tolerance enforced; All processes must maintain reproducibility from spec to deployment
 <!-- All PRs/reviews must verify compliance; Complexity must be justified; Use .specify/memory/constitution.md for runtime development guidance -->
 
-**Version**: 1.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
+**Version**: 1.1.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-14
+
+# Phase-2 Constitution — Integrated RAG Chatbot (Feature-Scoped)
+
+## Scope
+
+This constitution applies ONLY to Phase-2 feature folder: `/specs/1-rag-chatbot/`
+It MUST NOT override or modify Phase-1 constitution, specs, plans, or implementations.
+
+## Dependencies
+
+- Phase-1 (Book Creation & Publishing) is COMPLETE and FROZEN
+- Phase-1 constitution remains authoritative for all non-RAG concerns
+- Phase-2 work is additive and isolated
+
+## Non-Regression Rule
+
+- Phase-1 files MUST NOT be edited, regenerated, or re-implemented
+- Any conflict MUST defer to Phase-1 constitution
+- Violations require explicit migration approval
+
+## Core Principles
+
+### Faithfulness to Retrieved Content Only
+All chatbot responses must be grounded solely in retrieved content from the book; No information from external sources may be incorporated; Responses must be traceable to specific passages in the book content
+<!-- Rationale: Ensures the chatbot serves only as an interface to the existing book content without adding external information -->
+
+### Zero Hallucination Tolerance
+The system must never generate responses that are not supported by the book content; Any inability to answer from the provided text must result in a refusal to answer rather than fabrication; Strict adherence to source material is paramount
+<!-- Rationale: Maintains trust and accuracy by preventing the generation of false information -->
+
+### Deterministic, Source-Grounded Answers
+Every response must be directly derived from the retrieved context; The system must provide clear provenance for each answer by citing specific book sections; Answer generation must be reproducible based on the same input and context
+<!-- Rationale: Ensures accountability and verifiability of all responses -->
+
+### Modular, Testable, and Reversible Design
+The system architecture must be modular with clear separation of concerns; Each component (retrieval, generation, UI) must be independently testable; The system must include comprehensive monitoring and logging capabilities; Implementation must be reversible without affecting Phase-1 functionality
+<!-- Rationale: Enables maintainability, debugging, and future enhancements while ensuring reversibility -->
+
+### Embedding Standards Compliance
+The system must use Cohere for embeddings; Vector storage must be implemented with Qdrant Cloud (Free Tier); A relational database (Neon Serverless Postgres) must be used for metadata and session tracking
+<!-- Rationale: Ensures consistency with the chosen technology stack and performance requirements -->
+
+### Retrieval Mode Implementation
+The system must support three distinct retrieval modes: global book, chapter/section, and user-selected text only; The user-selected text mode is a hard constraint that must be implemented with no fallback allowed; Each mode must clearly indicate its scope to the user
+<!-- Rationale: Provides flexible interaction patterns while maintaining strict control over the information source -->
+
+## Technical Standards and Quality Requirements
+Standards: Cohere embeddings, Qdrant Cloud vector DB, Neon Serverless Postgres, FastAPI backend, Docusaurus frontend integration, Three retrieval modes (global book, chapter/section, user-selected text only), Statelessness requirement, No authentication or personalization, Free-tier limits must be respected
+<!-- Technology stack requirements: Cohere, Qdrant, Neon Postgres, FastAPI, Docusaurus -->
+
+## System Rules and Workflow
+System rules: All responses must be grounded in book content only; The chatbot must not modify book content; Retrieval and generation must be separate, testable components; The system must be stateless with no persistent user sessions; Phase-1 content must remain unchanged during all operations
+<!-- Code review requirements: Verify response grounding in source material; testing gates: Hallucination detection, retrieval accuracy, source citation validation -->
+
+## Success Criteria
+- All answers derived strictly from retrieved book text
+- Selected-text-only mode strictly enforced and testable
+- Zero hallucinations in validation tests
+- Chatbot deployed inside the book UI
+- Phase-1 content remains unchanged
+- No violations of Non-Regression Rule
+
+## Governance
+All implementation must follow the specified standards; Every response must be verifiable against book content; Zero hallucination tolerance enforced; All processes must maintain reproducibility from spec to deployment; This constitution is FEATURE-SCOPED and extends but does NOT replace Phase-1 constitution; Future amendments require documentation and impact analysis
+<!-- All PRs/reviews must verify compliance; Complexity must be justified; Use .specify/memory/constitution.md for runtime development guidance -->

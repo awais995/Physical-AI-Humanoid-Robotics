@@ -1,0 +1,194 @@
+# Chat API Contract
+
+## OpenAPI Specification for RAG Chatbot
+
+```yaml
+openapi: 3.0.0
+info:
+  title: RAG Chatbot API
+  description: API for the Retrieval-Augmented Generation chatbot integrated with the Docusaurus book
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:8000
+    description: Development server
+  - url: https://api.yourdomain.com
+    description: Production server
+
+paths:
+  /chat/query:
+    post:
+      summary: Submit a query to the chatbot
+      description: Process a user query and return a response based on book content
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatQueryRequest'
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatQueryResponse'
+        '400':
+          description: Bad request (invalid query)
+        '422':
+          description: Cannot answer from provided text (in selected-text-only mode)
+        '500':
+          description: Internal server error
+
+  /chat/conversation/{conversation_id}:
+    get:
+      summary: Get conversation history
+      description: Retrieve the history of a specific conversation
+      parameters:
+        - name: conversation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Conversation history
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ConversationHistoryResponse'
+        '404':
+          description: Conversation not found
+
+  /chat/conversations:
+    get:
+      summary: List user conversations
+      description: Get a list of conversations for the current session
+      responses:
+        '200':
+          description: List of conversations
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ConversationSummary'
+
+components:
+  schemas:
+    ChatQueryRequest:
+      type: object
+      required:
+        - query
+        - mode
+      properties:
+        query:
+          type: string
+          description: The user's query
+          example: "What is the main principle of ROS 2?"
+        mode:
+          type: string
+          enum: [global, selected-text-only]
+          description: The query mode to use
+          example: "global"
+        selected_text:
+          type: string
+          description: Text selected by user for selected-text-only mode
+          example: "The Robot Operating System (ROS) is a flexible framework for writing robot software..."
+        conversation_id:
+          type: string
+          description: Optional conversation ID to continue existing conversation
+          example: "conv_12345"
+
+    ChatQueryResponse:
+      type: object
+      required:
+        - response
+        - citations
+        - conversation_id
+      properties:
+        response:
+          type: string
+          description: The chatbot's response
+          example: "The main principle of ROS 2 is to provide a flexible framework for writing robot software..."
+        citations:
+          type: array
+          items:
+            type: object
+            properties:
+              source:
+                type: string
+                description: Source document/chapter
+              text:
+                type: string
+                description: The cited text
+          description: Citations to the book content used in the response
+        conversation_id:
+          type: string
+          description: The conversation ID for this interaction
+        confidence:
+          type: number
+          format: float
+          minimum: 0
+          maximum: 1
+          description: Confidence level of the response
+        mode:
+          type: string
+          enum: [global, selected-text-only]
+          description: The query mode used
+
+    ConversationHistoryResponse:
+      type: object
+      properties:
+        conversation_id:
+          type: string
+        messages:
+          type: array
+          items:
+            $ref: '#/components/schemas/Message'
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+
+    Message:
+      type: object
+      properties:
+        role:
+          type: string
+          enum: [user, assistant]
+        content:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        citations:
+          type: array
+          items:
+            type: object
+            properties:
+              source:
+                type: string
+              text:
+                type: string
+
+    ConversationSummary:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+          description: Brief title for the conversation
+        created_at:
+          type: string
+          format: date-time
+        updated_at:
+          type: string
+          format: date-time
+        last_message:
+          type: string
+          description: Preview of the last message
+```

@@ -11,6 +11,10 @@
           "mainDocId": "index",
           "docs": [
             {
+              "id": "chatbot-configuration",
+              "path": "/docs/chatbot-configuration"
+            },
+            {
               "id": "index",
               "path": "/docs/"
             },

@@ -1,142 +1,196 @@
 {
-  "/docs-d1c": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-066": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs-394": {
-    "__comp": "a94703ab"
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/chatbot-522": {
+    "__comp": "__comp---site-src-pages-chatbot-jsb-34-5a2",
+    "__context": {
+      "plugin": "plugin---chatbota-74-26c"
+    },
+    "config": "config---chatbot-5-e-9-77b"
+  },
+  "/docs-761": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-c20": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-e06": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/-0ee": {
-    "__comp": "17896441",
-    "content": "c377a04b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-c-37-4d0"
+  },
+  "/docs/chatbot-configuration-85f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-chatbot-configuration-879-1cc"
   },
   "/docs/intro-61d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/module1/ROS-2-Robotic-Nervous-System/-92c": {
-    "__comp": "17896441",
-    "content": "fe28d671"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-fe-2-53b"
   },
   "/docs/module1/ROS-2-Robotic-Nervous-System/chapter1-nodes-topics-services-aa2": {
-    "__comp": "17896441",
-    "content": "e3cd849c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-chapter-1-nodes-topics-servicese-3-c-ea3"
   },
   "/docs/module1/ROS-2-Robotic-Nervous-System/chapter2-rclpy-integration-1d3": {
-    "__comp": "17896441",
-    "content": "3515f2a8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-chapter-2-rclpy-integration-351-7e7"
   },
   "/docs/module1/ROS-2-Robotic-Nervous-System/chapter3-urdf-humanoids-a0a": {
-    "__comp": "17896441",
-    "content": "0f6b9459"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-chapter-3-urdf-humanoids-0-f-6-05f"
   },
   "/docs/module1/ROS-2-Robotic-Nervous-System/citations-validation-eac": {
-    "__comp": "17896441",
-    "content": "25dc3969"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-citations-validation-25-d-bb1"
   },
   "/docs/module1/ROS-2-Robotic-Nervous-System/plagiarism-check-ecb": {
-    "__comp": "17896441",
-    "content": "d398c345"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-ros-2-robotic-nervous-system-plagiarism-checkd-39-7e0"
   },
   "/docs/module2/Digital-Twin-Gazebo-Unity/-98e": {
-    "__comp": "17896441",
-    "content": "f7103bd1"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-unity-f-71-c4c"
   },
   "/docs/module2/Digital-Twin-Gazebo-Unity/chapter1-gazebo-unity-cd7": {
-    "__comp": "17896441",
-    "content": "35ade49e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-unity-chapter-1-gazebo-unity-35-a-f1d"
   },
   "/docs/module2/Digital-Twin-Gazebo-Unity/chapter2-physics-simulation-90d": {
-    "__comp": "17896441",
-    "content": "5dadcb96"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-unity-chapter-2-physics-simulation-5-da-e32"
   },
   "/docs/module2/Digital-Twin-Gazebo-Unity/chapter3-sensors-simulation-c81": {
-    "__comp": "17896441",
-    "content": "0b135fca"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-unity-chapter-3-sensors-simulation-0-b-1-e87"
   },
   "/docs/module2/Digital-Twin-Gazebo-Unity/citations-validation-7c5": {
-    "__comp": "17896441",
-    "content": "ace252e0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-unity-citations-validationace-c50"
   },
   "/docs/module2/Digital-Twin-Gazebo-Unity/plagiarism-check-67d": {
-    "__comp": "17896441",
-    "content": "f68c1d34"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-digital-twin-gazebo-unity-plagiarism-checkf-68-963"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/-f14": {
-    "__comp": "17896441",
-    "content": "6c99e593"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-6-c-9-686"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter1-isaac-sim-bb1": {
-    "__comp": "17896441",
-    "content": "b7672f47"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-chapter-1-isaac-simb-76-a6c"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter2-vslam-navigation-240": {
-    "__comp": "17896441",
-    "content": "b4696d09"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-chapter-2-vslam-navigationb-46-91e"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter3-nav2-bipedal-0f6": {
-    "__comp": "17896441",
-    "content": "ce3a3c9c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-chapter-3-nav-2-bipedalce-3-a60"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/chapter4-sim-to-real-0af": {
-    "__comp": "17896441",
-    "content": "46c507c2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-chapter-4-sim-to-real-46-c-0fd"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/citations-validation-aa9": {
-    "__comp": "17896441",
-    "content": "fe86fde8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-citations-validationfe-8-9df"
   },
   "/docs/module3/NVIDIA-Isaac-AI-Robot-Brain/plagiarism-check-8fc": {
-    "__comp": "17896441",
-    "content": "f8f02b9a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-nvidia-isaac-ai-robot-brain-plagiarism-checkf-8-f-248"
   },
   "/docs/module4/Vision-Language-Action-VLA/-030": {
-    "__comp": "17896441",
-    "content": "04557229"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-045-1b1"
   },
   "/docs/module4/Vision-Language-Action-VLA/chapter1-whisper-commands-66a": {
-    "__comp": "17896441",
-    "content": "4b256fd2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-chapter-1-whisper-commands-4-b-2-a80"
   },
   "/docs/module4/Vision-Language-Action-VLA/chapter2-llm-planning-a2a": {
-    "__comp": "17896441",
-    "content": "bbd79443"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-chapter-2-llm-planningbbd-9f1"
   },
   "/docs/module4/Vision-Language-Action-VLA/chapter3-voice-to-action-136": {
-    "__comp": "17896441",
-    "content": "a247450c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-chapter-3-voice-to-actiona-24-3d4"
   },
   "/docs/module4/Vision-Language-Action-VLA/chapter4-capstone-plagiarism-check-78d": {
-    "__comp": "17896441",
-    "content": "ffb25919"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-chapter-4-capstone-plagiarism-checkffb-086"
   },
   "/docs/module4/Vision-Language-Action-VLA/citations-validation-e39": {
-    "__comp": "17896441",
-    "content": "74b37e3b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-citations-validation-74-b-644"
   },
   "/docs/module4/Vision-Language-Action-VLA/plagiarism-check-368": {
-    "__comp": "17896441",
-    "content": "9a9e96f5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-vision-language-action-vla-plagiarism-check-9-a-9-059"
   },
   "/docs/references/citations-e93": {
-    "__comp": "17896441",
-    "content": "7965ecdb"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-references-citations-796-905"
   },
   "/docs/tutorials/getting-started-079": {
-    "__comp": "17896441",
-    "content": "8e36650c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-tutorials-getting-started-8-e-3-2ba"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---chatbota-74-26c"
     },
-    "config": "5e9f5e1a"
+    "config": "config---chatbot-5-e-9-77b"
   }
 }

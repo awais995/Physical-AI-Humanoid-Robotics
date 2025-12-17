@@ -7,7 +7,7 @@ export default {
   "title": "Physical AI & Humanoid Robotics",
   "tagline": "A comprehensive guide to modern robotics and AI integration",
   "favicon": "img/favicon.ico",
-  "url": "https://your-username.github.io",
+  "url": "https://physical-ai-humanoid-robotics-nine-red.vercel.app",
   "baseUrl": "/",
   "organizationName": "your-organization",
   "projectName": "humanoid-robotics",
@@ -296,6 +296,13 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "themes": [],
+  "scripts": [
+    {
+      "src": "/js/chatbot-config.js",
+      "async": true
+    }
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "v4": {
@@ -325,8 +332,6 @@ export default {
   ],
   "customFields": {},
   "plugins": [],
-  "themes": [],
-  "scripts": [],
   "headTags": [],
   "stylesheets": [],
   "clientModules": [],
