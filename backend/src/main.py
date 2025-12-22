@@ -22,7 +22,20 @@ async def lifespan(app: FastAPI):
     # Startup
     logger.info("Starting up RAG Chatbot API...")
     try:
-        # Any startup tasks can go here
+        # Initialize the content service and ingest book content on startup
+        from .services.content_service import content_service
+        await content_service.initialize_collection()
+
+        # Check if content already exists to avoid re-ingesting on every restart
+        stats = await content_service.get_content_stats()
+        if stats.get('total_passages', 0) == 0:
+            logger.info("No content found in database, ingesting book content...")
+            from ..ingest_complete_book import ingest_complete_book_content
+            await ingest_complete_book_content()
+            logger.info("Book content ingestion completed")
+        else:
+            logger.info(f"Content already exists in database ({stats.get('total_passages', 0)} passages), skipping ingestion")
+
         yield
     except Exception as e:
         logger.error(f"Error during startup: {e}")

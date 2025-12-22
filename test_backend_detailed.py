@@ -4,7 +4,7 @@ import time
 
 # Test the backend API with more detailed error checking
 def test_backend_detailed():
-    base_url = "http://localhost:8000"
+    base_url = "https://awaissoomro-chat-bot.hf.space"
 
     # Test health endpoint first
     try:
@@ -18,7 +18,7 @@ def test_backend_detailed():
     print("\nTesting retrieval process...")
     try:
         test_payload = {
-            "query": "What is this book about?",
+            "query_text": "What is this book about?",
             "mode": "global",
             "selected_text": None,
             "conversation_id": None

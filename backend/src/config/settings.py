@@ -42,7 +42,7 @@ class Settings(BaseSettings):
     # Generation Settings
     max_tokens: int = 500  # max tokens in response
     temperature: float = 0.1  # generation temperature (low for factual responses)
-    hallucination_check_enabled: bool = True
+    hallucination_check_enabled: bool = False
 
     # Performance Settings
     response_timeout: int = 30  # seconds

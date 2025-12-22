@@ -41,7 +41,7 @@ class RetrievalService:
             # Build search filters based on query mode and provided filters
             search_filter = self._build_search_filter(query_mode, selected_text, filters)
 
-            # Perform vector search
+            # Perform vector search - using method compatible with deployed Qdrant version
             search_results = self.qdrant_client.search(
                 collection_name=self.collection_name,
                 query_vector=query_embedding,

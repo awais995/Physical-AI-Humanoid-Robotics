@@ -9,7 +9,7 @@ import time
 def test_backend_health():
     """Test if the backend server is healthy"""
     print("Testing backend health...")
-    response = requests.get("http://localhost:8000/health")
+    response = requests.get("https://awaissoomro-chat-bot.hf.space/health")
     if response.status_code == 200:
         print("✓ Backend is healthy")
         return True
@@ -20,7 +20,7 @@ def test_backend_health():
 def test_chat_health():
     """Test if the chat endpoint is healthy"""
     print("Testing chat health...")
-    response = requests.get("http://localhost:8000/chat/health")
+    response = requests.get("https://awaissoomro-chat-bot.hf.space/chat/health")
     if response.status_code == 200:
         print("✓ Chat endpoint is healthy")
         return True
@@ -34,7 +34,7 @@ def test_qdrant_integration():
 
     # Test query about ROS 2
     response = requests.post(
-        "http://localhost:8000/chat/query",
+        "https://awaissoomro-chat-bot.hf.space/chat/query",
         headers={"Content-Type": "application/json"},
         data=json.dumps({
             "query_text": "What is ROS 2?",
@@ -67,7 +67,7 @@ def test_context_awareness():
 
     # Test query about Qdrant (not in the book)
     response = requests.post(
-        "http://localhost:8000/chat/query",
+        "https://awaissoomro-chat-bot.hf.space/chat/query",
         headers={"Content-Type": "application/json"},
         data=json.dumps({
             "query_text": "Explain Qdrant vector database",

@@ -241,10 +241,10 @@ async def get_stats():
     """
     try:
         content_stats = await content_service.get_content_stats()
+        # Note: conversation stats are not implemented in the current conversation service
         return {
             "content_stats": content_stats,
-            "total_conversations": len(conversations),
-            "active_conversations": len([c for c in conversations.values() if c.active]),
+            "total_passages": content_stats.get('total_passages', 0) if content_stats and 'error' not in content_stats else 0,
             "timestamp": datetime.now().isoformat()
         }
     except Exception as e:

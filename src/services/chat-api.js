@@ -3,7 +3,7 @@
 // Check for environment-specific configuration first
 const API_BASE_URL = (typeof process !== 'undefined' && process.env && process.env.REACT_APP_API_BASE_URL) ||
                      (typeof window !== 'undefined' && window.chatbotConfig && window.chatbotConfig.apiBaseUrl) ||
-                     'http://localhost:8000';
+                     'https://awaissoomro-chat-bot.hf.space';
 
 // Function to check if we're in a browser environment
 const isBrowser = typeof window !== 'undefined';

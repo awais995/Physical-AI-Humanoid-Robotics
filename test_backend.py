@@ -3,7 +3,7 @@ import json
 
 # Test the backend API
 def test_backend():
-    base_url = "http://localhost:8000"
+    base_url = "https://awaissoomro-chat-bot.hf.space"
 
     # Test health endpoint first
     try:
@@ -16,7 +16,7 @@ def test_backend():
     # Test chat endpoint
     try:
         test_payload = {
-            "query": "What is this book about?",
+            "query_text": "What is this book about?",
             "mode": "global",
             "selected_text": None,
             "conversation_id": None

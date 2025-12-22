@@ -38,7 +38,7 @@ const useChat = () => {
 
       // Prepare the request based on mode
       const requestData = {
-        query: query,
+        query_text: query,
         mode: mode,
         conversation_id: conversationId
       };
